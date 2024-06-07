@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tome
+    </title>
+    <link rel="icon" href="book.jpg">
+    <link rel="stylesheet " href="style.css ">
+    <script src="script.js "></script>
+    <link rel="preconnect " href="https://fonts.googleapis.com ">
+    <link rel="preconnect " href="https://fonts.gstatic.com " crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Vesper+Libre&display=swap " rel="stylesheet ">
+</head>
+
+<body>
+    <div class="navbar ">
+        <nav>
+            <h1>TomeKey📚
+            </h1>
+            <ul>
+                <li>Home |</li>
+                <li>Product |</li>
+                <li>Contact us |</li>
+                <li>About us</li>
+            </ul>
+        </nav>
+
+    </div>
+    </div>
+    <div class="container ">
+        <div class="book-container ">
+            <h2>The God of Small Things</h2>
+            <h5>- Arundhati Roy</h5>
+            <p> The God of Small Things is about two fraternal twins in India whose lives are dictated by tragedies in their past. Significant themes include family, loyalty, forbidden love, colonialism/post-colonialism, education discrimination, and social
+                class inequality.</p>
+            <button onclick="deletebook(event) ">Delete</button>
+        </div>
+
+        <div class="popup-overlay "></div>
+        <div class="popup-box ">
+            <h2>Add Tome</h2>
+            <form>
+                <input type="text " placeholder="Book Title " class="booktitle-input ">
+                <input type="text " placeholder="Book Author " class="bookauthor-input ">
+                <textarea placeholder="Short Description " class="bookdescription-input "></textarea>
+                <button class="addbook ">ADD</button>
+                <button class="cancelbook ">CANCEL</button>
+            </form>
+        </div>
+
+    </div>
+    <button class="add-button " id="add-popup-button ">+</button>
+</body>
+
+</html>
